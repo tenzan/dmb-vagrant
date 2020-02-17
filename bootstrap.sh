@@ -6,5 +6,5 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 apt install build-essential nodejs -y
 sudo apt autoremove -y
 cd code
-npm install
+sudo npm install
 npm run serve
